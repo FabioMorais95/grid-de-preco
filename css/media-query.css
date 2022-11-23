@@ -1,0 +1,33 @@
+@media(min-width:900px){
+    section{
+        width: 60vw;
+    }
+    .first-box{
+        text-align: center;
+    }
+    .first-box > .title{
+        text-align: center;
+    }
+    .t3, .t2{
+        text-align: center;
+    }
+    .first-box > p{
+        text-align: justify;
+    }
+    .second-box{
+        text-align: center;
+    }
+    button{
+        width: 60%;
+        transition: .3s;
+    }
+    button:hover{
+        background-color: #fff;
+        border: 1px solid hsl(179, 62%, 43%);
+        color: hsl(179, 62%, 43%);
+        transition: .3s;
+    }
+    .third-box{
+        text-align: center;
+    }
+}
