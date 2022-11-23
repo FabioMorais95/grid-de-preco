@@ -20,7 +20,7 @@ main{
 
 section{
     width: 80vw;
-    padding: 1rem;
+    padding: 0rem 1rem;
 }
 .first-box{
     background-color: #fff;
@@ -28,7 +28,7 @@ section{
     border-top-left-radius:.4rem;
 }
 section > .title{
-    margin: .8rem 0rem;
+    margin: .5rem 0rem;
     font-weight: 700;
     color: hsl(179, 62%, 43%);
 }
@@ -38,7 +38,7 @@ section > span{
 }
 section > p{
     color: hsl(218, 22%, 67%);
-    line-height: 1.7;
+    line-height: 1.4;
     margin: .8rem 0rem;
 }
 
@@ -47,6 +47,7 @@ section > p{
 }
 .second-box > .t2{
     color: #fff;
+    line-height: 1.5;
 }
 strong{
     color: #fff;
@@ -69,20 +70,21 @@ button{
     border: 1px solid hsl(71, 73%, 54%);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.295);
     font-weight: 700;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 .third-box{
     background-color: hsla(179, 62%, 43%, 0.5);
     border-bottom-right-radius:.4rem;
-    border-bottom-left-radius:.4rem
+    border-bottom-left-radius:.4rem;
+    padding-bottom:1rem;
 }
 .third-box > .t3{
     color: #fff;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
-.third-box > p{
-    line-height: 1;
+.third-box > ul > li{
+    list-style: none;
     color: #fff;
     font-weight: 400;
 }
